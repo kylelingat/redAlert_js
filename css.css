@@ -1,0 +1,20 @@
+button {
+  padding: 200px;
+  animation: background 3s cubic-bezier(1,0,0,1) infinite; 
+}
+
+
+
+@-webkit-keyframes background {
+  0% { background-color: #f99; }
+  33% { background-color: #ff1a1a; }  
+  67% { background-color: #99f; }
+  100% { background-color: #f99; }
+}
+
+@keyframes background {
+  0% { background-color: #f99; }
+  33% { background-color: #ff1a1a; }  
+  67% { background-color: #99f; }
+  100% { background-color: #f99; }
+}
